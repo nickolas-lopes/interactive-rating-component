@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+}
+body{
+    background-color: #121417;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.icon-star{
+    background-color: #393a3d;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    color: #fff;
+    margin-top: 40px;
+}
+.text{
+    color: #959eac ;
+    margin-bottom: 15px;
+}
+.rating-component{
+    background-color: #262e38;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    ;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.rate{
+    background-color: #232426;
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.submit-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.action-button{
+    width: 250px;
+    height: 40px;
+    background-color:#fb7413 ;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.rate:hover{
+    color: #393a3d;
+    background-color: #fb7413;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.action-button:hover{
+    color: #111111;
+    background-color: #ffffff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.thanks-img{
+    margin: auto;
+    width: 160px;
+    margin-bottom: 40px;
+}
+.rating-number{
+    background-color: #393a3d;
+    color: #fb7413;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.thanks{
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.we-apreciate{
+    color: #959eac;
+    text-align: center;
+}
+.active{
+    background-color: #fff;
+    color: #232426;
+}
+.none{
+    display: none;
+}
